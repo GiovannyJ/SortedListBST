@@ -20,5 +20,47 @@ implements SortedListInterface<T>
     }
 
     //FILL IN IMPLEMENTATION OF METHODS BELOW
+    //!needs to add in order
+    //!use in order iterator
+    public void add(T newEntry){
+
+    }
+
+    @Override
+    public boolean remove(T anEntry){
+        return false;
+    }
+
     
+    public T remove(int givenPosition){
+        return T;
+    }
+
+    public T getEntry(int givenPosition){
+        return T;
+    }
+
+    public int getPosition(T anEntry){
+        return 0;
+    }
+
+    public boolean contains(T anEntry){
+        return false;
+    }
+
+    public void clear(){
+
+    }
+
+    public int getLength(){
+        return 0;
+    }
+    
+    public boolean isEmpty(){
+        return false;
+    }
+
+    public T[] toArray(){
+        return T;
+    }
 }
